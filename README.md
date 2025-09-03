@@ -17,4 +17,4 @@ This page is dedicated to showcasing handmade beeswax candles in various shapes,
 - **CSS3** 
 
 ##  Live Demo
-👉 [Live Demo](https://yourusername.github.io/medukis-candles/)
+👉 [Live Demo](https://vaitukaityte20.github.io/Product-Landing/)
