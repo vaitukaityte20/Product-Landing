@@ -1,7 +1,7 @@
-# Medukis Beeswax Candles Landing Page
+# Product Landing Page
 
-A single-page product landing website for **Medukis** – a Lithuanian beekeeping brand.  
-This page is dedicated to showcasing handmade beeswax candles in various shapes, with product details, benefits, and brand story.
+A single-page product - Beeswax Candles - website for **Medukis** – a Lithuanian beekeeping brand.
+This page showcases handmade beeswax candles in various shapes, with product details, benefits, and brand story.
 
 ## Features
 - Responsive single-page design
