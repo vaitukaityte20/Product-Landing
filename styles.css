@@ -15,7 +15,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   font-family: 'Rubik', Arial, sans-serif;
 }
 #header {
@@ -113,6 +113,7 @@ h2 {
 }
 .container2 {
   grid-template-rows: auto;
+  margin-bottom: 0;
 }
 
 .container > .candle > img, .container2 > .candle > img {
@@ -167,4 +168,47 @@ h2 {
 }
 .candle {
   border-bottom: 1px solid black;
+}
+  .row {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 1 1 400px;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5em;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.column:hover {
+  transform: translateY(-5px);
+}
+
+.feature-img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 1em;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#features p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#care .first {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

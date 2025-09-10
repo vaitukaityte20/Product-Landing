@@ -12,13 +12,13 @@
     <iframe id="logo" src="logo.svg" sandbox>
 </iframe>
     <nav id="nav-bar">
-      <a src="" class="nav-link" href="#candles">Candle Collection</a>
-      <a src="" class="nav-link" href="#features">Features</a>
-      <a src="" class="nav-link" href="#care">Care</a>
-      <a src="" class="nav-link" href="#about">About</a>
-      <a src="" class="nav-link" href="#reviews">Reviews</a>
-      <a src="" class="nav-link" href="#FAQ">FAQs</a>
-      <a src="" class="nav-link" href="#newsletter">Newsletter</a>
+      <a class="nav-link" href="#candles">Collection</a>
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#care">Care</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#reviews">Reviews</a>
+      <a class="nav-link" href="#FAQ">FAQs</a>
+      <a class="nav-link" href="#newsletter">Newsletter</a>
     </nav>
   </header>
 <main id="main-section">
@@ -31,7 +31,7 @@
 </div></div>
   </section>
 <section id="candles">
-  <h2>Candle collection</h2>
+  <h2>Collection</h2>
   <div class="container">
 <div class="candle">
   <img id="candle-img" src="img/bell.jpg">
@@ -317,32 +317,60 @@
 </section>
   <section id="features">
      <h2>Candle Features</h2>
-     <p>
-    Since our beginnings as a Lithuanian apiary, Medūkis has honored tradition and craftsmanship.
-    Each candle is hand-poured, using pure beeswax and cotton wicks—no paraffin, no dyes. Made
-    with care, these candles bring a warm, natural glow to your home.
-  </p>
+     <p>Rooted in the heart of Lithuania, Medūkis celebrates the timeless tradition of beekeeping with every candle. Handcrafted from 100% pure beeswax and natural cotton wicks—free of paraffin and artificial dyes—our candles offer a clean, soothing glow that connects you to nature.</p>
      <div class="features">
-    <div class="feature">100% pure beeswax</div>
-    <div class="feature">Natural subtle honey scent</div>
-    <div class="feature">Clean, soot-reduced burn</div>
-    <div class="feature">Supports Lithuanian beekeepers</div>
-    <div class="feature">Eco, recyclable packaging</div>
-    <div class="feature">Antibacterial & antiviral properties</div>
+      <div class="row">
+      <div class="column">
+      <img class="feature-img" src="img/vax.jpg" alt="Beeswax">
+      <p><strong>100% Pure Beeswax</strong><br>Harvested from local Lithuanian hives, our beeswax is natural, aromatic, and toxin-free.</p>
+    </div>
+    <div class="column">
+      <img class="feature-img" src="img/old-meth.jpg" alt="Handmade process">
+      <p><strong>Handcrafted with Care</strong><br>Each candle is hand-poured using time-honored methods passed down through generations.</p>
+      </div>
+    </div>
+    <div class="row">
+    <div class="column">
+      <img class="feature-img" src="img/lelija.jpg" alt="Burning candle">
+      <p><strong>Clean & Soot-Free Burn</strong><br>No smoke, no mess. Just a golden flame that burns clean and bright.</p>
+    </div>
+    <div class="column">
+      <img class="feature-img" src="img/flame.jpg">
+      <p><strong>Long-Lasting Glow</strong><br>Our dense beeswax burns slower than regular candles—lasting longer and glowing stronger.</p>
+    </div></div>
+    <div class="row">
+    <div class="column">
+      <img class="feature-img" src="img/bee-flower.jpg" alt="Natural honey aroma">
+        <p><strong>Natural Honey Aroma</strong><br>No added scents—just the sweet, floral fragrance of real beeswax that
+          gently fills your space.</p>
+    </div>
+    <div class="column">
+      <img class="feature-img" src="img/old-method.jpg" alt="Eco-friendly">
+        <p><strong>Eco-Friendly & Sustainable</strong><br>Fully biodegradable and made without chemicals—kind to both
+          your home and the planet.</p>
+      </div>
+    </div>
   </div>
   </section>
   <section id="care">
-    <h2>Candle Care Tips</h2>
+    <h2>Care Tips</h2>
+    
   <ul>
+    <div class="first">
     <li>Trim wick to ~5–7 mm before lighting.</li>
-    <li>First burn: allow wax to melt to edges to avoid tunneling.</li>
+    <li>First burn: allow wax to melt to edges to avoid tunneling.</li></div>
+    <div class="first">
     <li>Avoid drafts for a steady flame.</li>
-    <li>Use a snuffer to extinguish and reduce soot.</li>
+    <li>Use a snuffer to extinguish and reduce soot.</li></div>
   </ul>
   </section>
+
   <section id="about">
-    <iframe id="video" src="https://www.youtube.com/watch?v=OozqE8VVQXQ"></iframe>
+    <h2>Our Story</h2>
+    <p>Who are we?</p>
+  <video src="https://www.youtube.com/watch?v=OozqE8VVQXQ"></video>
   </section>
+  
   <section id="reviews">
     <h2>What Customers Say</h2>
   <blockquote>“The Kūgis candle fills the room with warm honey scent.” — Aistė</blockquote>
@@ -369,8 +397,8 @@
   </section>
 <section id="newsletter">
   <h2>Sign up for our newsletter!</h2>
-  <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-  <label id="email">Email: <input type="email" id="email" name="email" placeholder="Email address"></label>
+  <form id="form" action="" method="POST">
+  <label id="email">Email: <input type="email" id="email" name="email" ></label>
   <input type="submit" id="submit"></input>
 </form>
 </section>
